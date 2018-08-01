@@ -1,0 +1,1284 @@
+
+/* ==|== primary styles =====================================================
+   Author: KUDOS WEB //
+   ========================================================================== */
+
+/*#0. Colors#*/
+/*
+green : #8BC756, rgba(139, 199, 86, 0.7)
+*/
+
+/*# 1. GLOBAL STYLES #*/
+/*# 1. GLOBAL STYLES/1.1 Wrapper header and footer #*/	
+::-moz-selection { background: white !important; color:  #078 !important; text-shadow: none; }
+::selection { background: white !important; color:#078 !important; text-shadow: none; }
+h1,h2 {
+    margin:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	
+}
+
+#dept{
+margin-left:120px;
+padding:15px;
+width:800px;
+
+}
+
+#dept a {
+   width: 400px;
+        height: 35px;
+		padding-top:10px;
+        display: block;
+        text-decoration: none;		
+        font-family: Georgia,'Times New Roman',serif;
+		font-size:18px;
+        color:#006666;
+
+}
+#dept a:hover{
+color:#4eb1ff;}
+.wrapper{
+width:100%;
+height:100%;	
+}
+#events{
+	width:520px;
+	float:left;
+	padding:15px;
+}
+
+#news{
+	width:520px;
+	float:right;
+	margin-right:60px;
+	padding:10px;
+}
+
+
+.centered{
+	width:100%;
+	margin:0 auto;
+
+}
+
+
+.resize{
+width:100%;	
+}
+
+.vision{
+	background-image:url(../images/vision%20bg.gif);
+	background-repeat:repeat;
+
+}
+.vision p{
+width:950px;
+margin-left:5px;
+text-align:justify;
+line-height:25px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:14px;
+}
+.vision .title{
+font-family:Arial, Helvetica, sans-serif;
+font-size:25px;
+padding-left:65px;
+color:#009999;
+line-height:30px;
+}
+.vision .title1{
+margin-left:05px;
+line-height:35px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+
+color:#009999;
+}
+
+.vision .title2{
+margin-left:15px;
+line-height:35px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+
+color:#009999;
+}
+.vision .title2{
+margin-left:5px;
+line-height:35px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+font-weight:bold;
+color:#009999;
+}
+
+
+
+.gallary
+{
+	width:700px;
+	margin-left:100px;
+	background-image:url(../images/vision%20bg.gif);
+}
+.gallary1
+{
+	width:900px;
+	margin-left:100px;
+	background-image:url(../images/vision%20bg.gif);
+}
+#map {
+        width: 500px;
+        height: 400px;
+      }
+.vision .address{
+
+margin-left:5px;
+text-align:justify;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:16px;
+line-height:25px;
+}
+/*.teal_bullet{
+background:url(http://www..ac.nz//media/Images/teal_dot.jpg) no-repeat;
+padding-left:2%;
+}*/
+			
+
+
+
+/*# 2. General Styling #*/
+/*# 2. General Styling/ 2.1 MAIN SECTION - HOME PAGE #*/
+			
+.main{
+padding-top:12px;	
+}
+
+.bold{
+font-weight:bold;
+}
+
+
+.phone-show {
+    display:none;
+}
+/*# 2. General Styling/2.1 MAIN SECTION - HOME PAGE/1. intro #*/
+
+
+
+
+.intro-block {
+    margin-bottom:2%;
+}
+.intro-block .teal-block {
+    display:none;
+}
+.intro-block > img {
+    float:left;
+    width:46.5%;
+}
+.intro-block .v-card {
+    float:left;
+    width:46.5%;
+  
+    position:relative;
+    overflow:hidden;
+}
+.v-card > img {
+    position:absolute;
+    z-index:0;
+    /*width: 120px;*/
+    width:194px;
+    left:40px;
+}
+.v-card .shadow-wrap {
+    padding:13px 20px;
+    /*background:url('http://www..ac.nz//media/Images/v-card-shadow.png') repeat-x top center;*/
+}
+.v-card h2 {
+    color:white;
+    text-transform:uppercase;
+    font-family: 'TradeGothicMedium';
+    font-size:1.6em;
+}
+.v-card h2 span {
+    font-family: 'AnnifontItalic';
+    font-size:1.6em;
+}
+.v-card .nr,
+.v-card a[href^=tel] {
+    color:#91CF6D;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    font-size:2.6em;
+    margin:0;
+}
+.v-card a[href^=tel] {
+    font-size:1em;
+}
+.v-card .details {
+    float:right;
+}
+
+.location-programme {
+    float:right;
+    width:50%;
+      
+}
+.green-block {
+    float:left;
+    width:48%;
+    /*height:130px;*/
+}
+
+.green-block > a {
+    display:block;
+}
+.green-block + .green-block {
+    margin-left:4%;
+}
+.IE7 .green-block + .green-block {
+    margin-left:3%;
+}
+.green-block .content {
+    float:left;
+    /*width:44%;*/
+    width:135px;
+    padding:14px;
+    background:transparent;
+    background:rgba(139, 199, 86, 0.7);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#B28BC756', EndColorStr='#B28BC756'); 
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#B28BC756', EndColorStr='#B28BC756')"; 
+    display:block;
+     /*height:102px;*/
+}
+.IE7 .green-block .content,
+.IE8 .green-block .content {
+    /*padding:0;*/
+}
+.green-block select {
+font-size: 13px;
+width: 100%;
+margin-top: 10%;
+background-color: white;
+color: #078;
+font-weight: bold;
+/*text-transform: uppercase;
+border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+behavior: url("http://www..ac.nz//js/mylibs/PIE.htc");*/
+}
+
+
+.green-block option {
+font-size: 13px;
+font-weight: bold;
+}
+
+
+.green-block h1,
+.green-block h2 {
+    color:white;
+}
+.green-block img {
+   
+    width:7%;
+}
+
+
+
+
+.location,
+.programme {
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover; 
+}
+/*# 2. General Styling/2.1 MAIN SECTION - HOME PAGE/2. main-content #*/
+.main-content {
+    margin-bottom:2%;
+}
+.news-events {
+    float:left;
+    width:46.5%;
+    overflow:hidden;
+}
+
+
+ .featured{
+	overflow:hidden;
+}
+ .featured a{
+	float:left;
+	margin:0 10px 0 0;
+	display:block;
+}
+ .featured a img{
+	border:0;
+}
+ .featured div.gallery{
+	float:left;
+	width:790px;
+}
+ .featured div.gallery a{
+	float:none;
+	margin:0;
+	height:460px;
+}
+ .featured div.gallery ul.first{
+	margin:10px 0 0;
+	float:left!important;
+}
+ .featured div.gallery ul{
+	padding:0;
+	margin:10px 0 0 10px;
+	float:left;
+	list-style:none;
+}
+ .featured div.gallery ul li{
+	width:390px;
+}
+ .featured div.gallery ul li a{
+	height:auto;
+	margin: 0 0 10px 0;
+	height:140px;
+} .featured div.gallery ul li a img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+/*# 2. General Styling/2.1 MAIN SECTION - HOME PAGE/3. teal-block #*/
+.home_dropdown{
+height:20px;
+overflow:hidden;
+}
+
+.teal-block {
+    /*background: url("http://www..ac.nz//media/websiteImages/online_banner.jpg") no-repeat right center;*/
+  
+    width:50%;
+    float:right;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover; 
+}
+.teal-block .content {
+    float:left;
+    /*width:55%;*/
+    width:258px;
+    padding:10px 15px;
+    
+}
+
+.IE7 .teal-block .content {
+    height:100px;
+}
+
+.IE8 .teal-block .content {
+    width:300px;
+}
+
+.teal-block h1{
+    font-size:1.6em; /*21px;*/
+    color:#fff;	
+    margin: 0;
+    border-bottom:1px dotted #fff;
+    float:left;
+}
+
+.teal-block a.bold {
+    font-size:1.2em; /*16px;*/
+    color:white;
+    /*font-family: 'TradeGothicBoldTwo';*/
+    padding: 0 0 0 15px;
+    line-height: 230%;
+    font-weight: normal;
+    /*background:url(http://www..ac.nz//media/Images/white_errow.png) no-repeat left center;*/
+}
+
+
+.teal-block .links {
+    float:left;
+}
+.teal-block .links + .links{
+    float:right;
+    /*margin-right:10%;*/
+    margin-left:0;
+}
+
+.IE8 .teal-block .links {
+   width:50%;
+}
+.IE8 .teal-block .links + .links{
+ width:40%;
+}
+
+
+/*# 2. General Styling/2.1 MAIN SECTION - HOME PAGE/4. featured-story #*/
+.featured-story {
+    margin-top: 2%;
+    position: relative;
+    float:right; 
+    width:50%;
+}
+.featured-story > .content-block {
+    background-color: #E0EEF1;
+    /*z-index: -999999999999;*/
+    position: relative;
+    z-index:33;
+}
+
+.student-round
+{
+z-index: 9999;
+margin-left:-8px;
+margin-top:-21px;
+}
+
+.student-original
+{
+z-index: -66666;
+margin: -278px 0px 0 0px;
+position: relative;
+width:250px;
+height:250px;
+}
+
+
+
+.featured-story .image {
+    float:left;
+    position:relative;
+    /*width:46%;*/
+    width:45%;
+    margin-left:-3%;
+    padding-bottom:45%;
+    
+}
+.image .round-img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    border:2px solid white;
+    
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+
+    behavior: url("http://www..ac.nz//js/mylibs/PIE.htc");
+    background-position:center center;
+    background-repeat:no-repeat;
+    
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    
+    display:block;
+}
+.featured-story .content {
+    float:right;
+    width:53%;
+    padding: 2%;
+}
+.featured-story h1 {
+    color: #007788;
+    font-family: 'TradeGothicMedium';
+    font-size: 1.8em; /*24px;*/
+    line-height: 100%;
+    padding: 0 4% 0 0;
+    text-align: right;
+}
+.featured-story h3 {
+    color: #007788;
+    padding: 0 4% 5px 0;
+    text-align: right;
+    margin-top:0;
+}
+.featured-story p {
+    font-family: 'TradeGothicMedium';
+    text-align: right;
+    padding-right:2%;
+}
+.featured-story .read-more {
+    color: #007788;
+    float: right;
+    /*font-family: 'TradeGothicBoldTwo';*/
+    font-size: 0.9em; /*12px;*/
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    padding-right:15px;
+}
+
+/*# 2. General Styling/2.1 MAIN SECTION - HOME PAGE/5. more student success #*/
+.more-stories {
+
+    margin-top: 4%;
+    color:white;
+    font-size:1.1em;
+    display:block;
+    padding-bottom:1%;
+    text-transform:uppercase;
+}
+.more-stories span {
+    display:block;
+    margin: 0 5px;
+    padding: 5px 5px 0;
+    border-bottom: 1px dotted white;
+}
+.more-stories:hover {
+    text-decoration:none;
+    color:white;
+}
+/*# 2. General Styling/2.1 MAIN SECTION - HOME PAGE/6. news or events #*/
+
+.home-news-listing .content-item img
+{
+    max-height: 125px;
+}
+
+/*.home-news-listing .content-item .homepage-news-img
+{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.home-news-listing .content-item .homepage-news-content
+{    
+    margin-left: 16px;
+    width: 65%;
+    float: left;
+}
+*/
+.news-events {
+    background:#E0EEF1;
+    
+}
+.news-events .tabs a {
+    text-transform:uppercase;
+}
+.news-events .tabs {
+    list-style:none;
+    margin:0;
+    padding:0;
+    border-bottom:5px solid white;
+}
+
+
+.news-events .liquid-wrapper {
+    float:left;
+    width:100%;    
+}
+.news-events .homepage-news-content {
+    margin-left:160px;
+}
+.news-events .fixed-wrapper {
+    float:left;
+    margin-left:-100%;
+    width:150px;
+}
+
+
+
+
+.tabs li {
+    float:left;
+    width:50%;
+}
+/*.IE7 .tabs li {
+    width:49%;
+}*/
+.tabs a {
+    display:block;
+    font-size:1.84em; /*24px;*/
+    text-align:center;
+    line-height:1em;
+        padding-top:5px;
+        text-shadow: 1px 1px 1px #DFDFDF;
+}
+.tabs a:hover,
+.tabs a.selected {
+    background:#006F81;
+    color:white;
+    text-shadow: 1px 1px 1px #626262;
+}
+.tab-content {
+    width:200%;
+    -moz-transition: -moz-transform .3s ease;
+    -webkit-transition:-webkit-transform .3s ease;
+    -o-transition: -o-transform .3s ease;
+    -ms-transition: -ms-transform .3s ease;
+    transition: transform .3s ease;
+    -webkit-backface-visibility: hidden;
+    /*overflow:hidden;*/
+}
+.tab-content.show-events {
+    -moz-transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.no-csstransforms .tab-content.show-events {
+    margin-left:-100%;
+}
+.tab-content .content-item {
+    /*padding: 0 2%;*/
+    padding:2% 0;
+    margin: 2%;
+}
+.tab-content .content-item + .content-item {
+    border-top:1px dotted #007788;
+}
+.tab-content .content-item > .image {
+    border:1px solid #A7CDD4;
+    float:left;
+    margin-right:1%;
+}
+.tab-content h2 {
+    margin-top:0;
+    margin-bottom:1%;
+    text-transform:none;
+}
+.tab-content h2 a {
+    display:block;
+    color: #078;
+    font-size:1em;
+    line-height:1em;
+}
+.tab-content p {
+    margin: 1% 0;
+}
+.tab-content .read-more {
+  
+    padding-right:15px;
+}
+.content-item .read-more {
+    display:block;
+    text-align:right;
+    text-transform:uppercase;
+    font-weight:bold;
+    padding-right:15px;
+ 
+}
+.content-item .read-more:hover {
+    color: #078;
+}
+.tab-content .content-listing {
+    background: #E0EEF1;
+    width:100%;
+    float:left;
+    width:50%;
+}
+
+.browse-all-events-home {
+    border-bottom: 1px dotted #007788;
+    border-top: 1px dotted #007788;
+    margin: 0 2% 0;
+    padding: 7px 0 5px;
+}
+.browse-all-events-home h1 {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 15px;
+
+}
+/*# 2. General Styling/2.1 MAIN SECTION - HOME PAGE/7. flex box #*/
+.flex-home {
+  
+    height:49px;
+     -webkit-box-shadow:  0px 3px 7px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 3px 7px 0px rgba(0, 0, 0, 0.3);
+   
+}
+
+.flex-home .centered {
+    position:relative;
+}
+
+
+
+
+
+/*# 2. General Styling/2.3 news or events #*/
+
+.news{
+background-color:#e0eef1;	
+}
+
+.news h1{
+margin: 0;	
+color:#007788;
+
+}
+
+.events h1{
+margin: 0;
+}
+
+.eventslistingonly h6 {
+color: #078;
+font-family: 'TradeGothicMedium';
+font-size: 11px;
+font-weight: normal;
+margin: 2px 0px 2px 0px;
+}
+
+
+
+/* ==|== media queries ======================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   ========================================================================== */
+
+/*# 4 Media Queries  #*/
+/*# 4 Media Queries/4.1 max-width: 1220px #*/
+@media screen and (max-width: 1220px) {
+.main {
+    width:100%;
+}
+
+.centered{
+      width:98%;
+}
+
+#slideshow {
+    width:98%;
+}  
+}
+@media screen and (max-width: 985px) {
+    .v-card > img {
+        width:120px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .v-card > img {
+        left:auto;
+    }
+}
+/*# 4 Media Queries/4.2 max-width: 960px #*/
+@media screen and (max-width: 960px) {
+  /* Style adjustments for viewports 480px and over go here */
+        
+
+    .secondary-content .green-block .content {
+        width:100%;
+    }
+    .teal-block .content {
+        /*width:100%;*/
+        /*width:94%;*/
+    }        
+        
+    
+    .intro-block > img {
+        width:49%;
+    }
+    .location-programme {
+        width:50%;
+      
+    }
+    .news-events {
+        width:49%;
+    }
+    .intro-block .v-card {
+        width:49%;
+    }
+}
+
+/*# 4 Media Queries/4.3 max-width: 768px #*/
+@media only screen and (max-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+.tablet-hide {
+    display:none;
+}
+/*# 4 Media Queries/4.3 max-width: 768px /3. intro #*/  
+.intro-block > img {
+    width:50%;
+}
+/*# 4 Media Queries/4.3 max-width: 768px /1. teal-block #*/  
+.intro-block .teal-block {
+    display:block;
+    float:left;
+    width:49%;
+} 
+.teal-block h1 {
+    font-size: 1.3em;
+    float:none;
+    border-bottom:none;
+}
+.teal-block .content {
+  width:auto;
+  padding:0;
+  float:none;
+  padding: 4% 5%;
+}
+.teal-block select {
+    margin-top:10px;
+    width:100%;
+    color: #007788;
+    font-weight:bold;
+}
+
+
+/*# 4 Media Queries/4.3 max-width: 768px /2. green-block #*/
+.green-block .content {
+    padding:4% 5%;
+    height:auto;
+}
+.green-block {
+    float:none;
+    width:100%;
+}
+.green-block + .green-block {
+    margin: 2% 0 0 0;
+}
+
+.green-block select {
+    margin-top:10px;
+}
+/*.green-block + .green-block .content {
+    padding: 10% 5%;
+}*/
+.intro-block .v-card {
+    margin-bottom:1%;
+}
+.v-card .shadow-wrap {
+    padding:8px 20px;
+}
+.v-card h2 {
+    padding:0;
+    font-size:1.1em;
+}
+.v-card .nr {
+    font-size: 1.9em;
+}
+
+.v-card > img {
+    width:30%;    
+}
+
+
+/*# 4 Media Queries/4.3 max-width: 768px /4. main-content #*/
+.main-content {
+    position:relative;
+}
+.news-events {
+    width:50%;
+}
+.featured-story {
+    margin-top:0;
+}
+
+
+/*# 4 Media Queries/4.3 max-width: 768px /5. tab-content #*/
+.tab-content .content-item {
+    margin:0 2%;
+}
+
+.browse-all-events-home {
+    margin:0 2% 2% 2%;
+}
+
+/*# 4 Media Queries/4.3 max-width: 768px /6. student profile #*/
+
+
+
+
+.featured-story h1 {
+    padding:0;
+}
+.featured-story p {
+    padding-right:0;
+}
+.featured-story .image {
+    padding-bottom:150px;
+    width:150px;
+}
+.featured-story .content {
+    width:auto;
+}
+
+.student-profile .liquid-wrapper {
+    float:left;
+    width:100%;
+    
+}
+.student-profile .content {
+    margin-left:160px;
+    padding:0;
+}
+.student-profile .fixed-wrapper {
+    float:left;
+    margin-left:-100%;
+    width:150px;
+}
+
+
+
+.footer-col {
+    width:18%;
+	 background:#006977;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+.footer-col + .footer-col {
+    width:18%;
+}
+.footer-col.social {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+}
+.footer-col.social h2 {
+    text-align:center;  
+}
+.footer-col.social .icons {
+    width:255px;
+    margin:0 auto;
+    float:none;
+}
+
+
+
+
+
+
+
+
+/*#4 Media Queries/4.3 max-width: 768px/Structural changes#*/
+.green-block h1, 
+.green-block h2 {
+    display:inline;
+    font-size:1.3em;
+}
+.green-block .content {
+    /*width:90%;*/
+    width:auto;
+}
+.news-events,
+.featured-story{
+    width:100%;
+}
+.news-events {
+    margin-bottom:2%;
+}
+.student-profile {
+    padding:2%;
+}
+.teal-block {
+    bottom:100%;
+}
+
+
+}
+/*# 4 Media Queries/4.4 temp : max-width: 565px #*/
+@media only screen and (max-width: 565px) {
+    .v-card > img {
+        display:none;
+    }
+    .v-card .shadow-wrap {
+        padding:4px 20px;
+    }
+    .v-card .details {
+        float:none;
+    }
+    .slide-1 .caption-content,
+    .slide-2 .caption-content,
+    .slide-3 .caption-content,
+    .slide-4 .caption-content {
+        width:400px;
+        margin:0 auto;
+    }
+}
+/*# 4 Media Queries/4.5 temp : max-width: 515px #*/
+@media only screen and (max-width: 515px) {
+    .v-card .shadow-wrap {
+        padding:3px 20px;
+    }
+}
+
+
+/*# 4 Media Queries/4.6 max-width: 480px #*/
+@media only screen and (max-width: 480px) {
+.header-content .logo a {
+    width:100%;
+    margin:0 auto;
+}
+.main {
+    padding-top:0;
+}
+.phone-show {
+    display:block;
+}
+
+.intro-block .v-card {
+    /*width:58%;*/
+    width:90%;
+}
+.v-card .details {
+    text-align:center;
+}
+.v-card h2 span,
+.v-card .nr {
+    font-size:1.5em;
+}
+
+/* Style adjustments for viewports 480px and over go here */
+.top-bar,
+.tagline {
+    display:none;
+}
+
+/*# 4 Media Queries/4.5 max-width: 480px / 1. intro block #*/
+.header-content .logo a {
+    width:100%;
+}
+.header-content {
+    padding-top:0;
+}
+.header-content .logo {
+    width:100%;
+    margin-left:-2%;
+    margin-top: -10px;
+}
+.location-programme,
+.news-events,
+.featured-story{
+    width:100%;
+}
+.location-programme {
+    margin-bottom:2%;
+}
+
+.intro-block .teal-block {
+    width:100%;
+}
+
+.news-events {
+    margin-bottom:2%;
+}
+.featured-story {
+    margin-bottom:0;
+}
+.green-block + .green-block .content {
+    padding: 4% 5%;
+}
+
+/*# 4 Media Queries/4.5 max-width: 480px / 2. teal block #*/
+.teal-block {
+    position:static;
+    width:100%;
+    float:none;
+}
+.teal-block .content {
+    padding:4% 5%;
+}
+.teal-block .links {
+    margin-top:2%;
+}
+.teal-block .links + .links {
+    float:right;
+}
+.teal-block .heading {
+    margin-bottom:2%;
+}
+.teal-block a.bold {
+    display:block;
+}
+
+
+/*# 4 Media Queries/4.5 max-width: 480px / 3. green-block #*/
+.green-block img {
+    width:5%;
+}
+
+/*# 4 Media Queries/4.5 max-width: 480px /more student success#*/
+
+
+.slider-wrapper {
+    display:none;
+}   
+
+
+.enroll-btn {
+width: 23%;
+}
+
+.home_dropdown{
+height:25px;
+}
+
+.teal-block a.bold {
+display: inline-block;
+}
+
+.more-stories h2 {
+margin: 1%;
+}
+.more-stories a{
+font-size: 1em;
+}
+
+.flex-home {
+    display:none;
+}
+
+
+.enroll {
+    /*background: url("http://www.ac.nz//media/Images/bg_teal_stripes1.png") repeat scroll 0 0 transparent;*/
+
+    min-height: 66px;
+    position: absolute;
+    right: 0;
+    width: 25%;
+}
+
+.enroll .enroll-btn {
+    bottom: auto;
+    margin-top: -47%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.Safari .enroll .enroll-btn {
+    margin-top:-59%;
+}
+.enroll .shadow-wrap {
+     /*background: url("http://www..ac.nz//media/Images/v-card-shadow.png") repeat-x scroll center top transparent;*/
+}
+
+.enroll a {
+    display:block;
+    color:white;
+    text-decoration:none;
+    font-family: 'AnnifontItalic';
+    font-size:1.5em;
+    line-height:1em;
+    text-align:center;
+}
+
+.more-stories {
+    margin-top:2%;
+}
+
+.header-content {
+    background:none;
+}
+
+
+.footer-container {
+    background:#006977;
+     padding: 8px 0;
+}
+
+.footer-content {
+    padding:8px 5px;
+
+}
+.footer-top .footer-col, 
+.footer-top .footer-col + .footer-col {
+    margin:0;
+    width:100%;
+}
+.footer-top .footer-col + .footer-col {
+    border-top:1px solid #00515B;
+}
+
+.footer-col h1 {
+    background:url('http://www.northtec.ac.nz/NorthTec/media/websiteImages/errow_green_small.png') no-repeat right center;
+    cursor:pointer;
+}
+
+.footer-items {
+    margin:0;
+    width:100%;
+    background:#006977;
+}
+.footer-items .prev,
+.footer-items > a {
+    padding:8px 5px;
+}
+.footer-items .prev {
+    color: #88CC55;
+    /*font-family: 'TradeGothicBoldTwo';*/
+    font-size: 1em;
+    text-transform:uppercase;
+    border-bottom:1px solid #00515B;
+    cursor:pointer;
+    background: url("http://www.northtec.ac.nz/NorthTec/media/Images/errow_green_small-flipped.png") no-repeat scroll 2px center transparent;
+    padding:8px 15px;
+}
+
+.footer-items > a {
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.footer-items > a ~ a {
+    border-top:1px solid #00515B;
+}
+
+.footer-items.show > h1 {
+    display:none;
+}
+}
+
+
+
+.student-profile .round-img > img {
+   display:none;
+}
+
+.IE7 .student-profile .round-img,
+.IE8 .student-profile .round-img {
+    background:white;
+    position:static;
+}
+
+.IE7 .student-profile .round-img > img,
+.IE8 .student-profile .round-img > img {
+     display:block;
+   
+  
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+  
+    max-height:350px;
+}
+
+.IE7 .image .round-img,
+.IE8 .image .round-img {
+}
+
+.IE7 .featured-story .image,
+.IE8 .featured-story .image {
+    height:auto;
+    position:static;
+    padding-bottom:0;
+}
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+
+
+/* Minification failed (line 1123, error number 1049): Browser hack generates invalid CSS */
